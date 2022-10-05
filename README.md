@@ -55,9 +55,6 @@ The Website for Web design for every one
       <h5>meter Tag</h5>
       <meter min="0" max="100" value="50">50%</meter>
 <hr>
-      <h6>Iframe tag it's like a "see tatourial" in movies </h5>
-      <iframe src="[EgyBest].Siccin.3.Curmu.Ask.2016.BluRay.720p.x264.mp4"></iframe>
-<hr>
       <h4>this may help when u type in arabic{Right to left("rtl or ltr")}</h4>
       <p><bdo dir="rtl">مرحبا أنا أستخدم اللغة العربية</bdo></p>
       
