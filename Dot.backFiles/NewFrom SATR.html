@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta content="table">
+<head><title>Tables</title></head>
+<body dir="rtl">
+<h1>مرحبا في دورة ال Youtube :</h1>
+<img dir="rtl" src="youtube.png">
+<table border="4">	
+<tr><th>Name</th><th>LastNAme</th></tr>
+<tr><td>ahmad</td> <td>Kharsa</td></tr>
+<tr><td>Alaa </td><td rowspan="2">Abdulghani Warrak</td></tr>
+<tr><td>Mona</td></tr>
+<tr><td colspan="2">Farah
+     yaser aghwani</td>  </tr>
+</table>
+<ol>
+  <li>  <details><summary>محاور الدورة</summary></details></li>
+ <li> <p>تصاميمها</p></li>
+</ol>
+<p><b>للإنضمام إلى الدورة يرجى ادراج بعض المعلومات</b></p>
+<form>
+    <label for="Name">إسم المستخدم </label>
+    <input type="text"  id="Name">
+        <br> <br>
+    <label for="PhoneNum">رقم الهاتف</label>
+    <input type="tel" id="PhoneNum">
+    <br>
+    <p>الجنس :</p>
+    <!-- أذا تركنا الإسم فاضي لأحد المدخلات رح يسمحلنا نختار ال 2 -->
+    <input type="radio" name="gender" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label>
+    <br><br>
+    <p><b>من أين سمعت عن لغة HTML</b></p>
+    <input type="checkbox" name="fri" id="fri">
+    <label for="fri">Friend?</label>
+    <input type="checkbox" name="books" id="books">
+    <label for="books">Books?</label>
+    <input type="checkbox" name="SocialMedia" id="SocialMedia">
+    <label for="SocialMedia">SocialMedia?</label>
+    <br>
+    <label for="city"> where are you from?</label>
+    <select name="city" id="city">
+    <option value="syria">Syria</option>
+    <option value="Lebanon">Lebanon</option>
+    <option value="Dubai">Dubai</option>
+    </select>
+    <!-- here are put the Send option in HTML -->
+    <input type="submit" value="Login">
+
+</form>
+
+</body>
+
+
+</html>
